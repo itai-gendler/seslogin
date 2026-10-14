@@ -1,0 +1,13 @@
+scenarioKinds:
+  - id: primary
+    name: Primary
+    description: "The ordinary supported outcome of the ability, including unattended runs."
+  - id: alternative
+    name: Alternative
+    description: "Another supported route to the ability's outcome, or another place it is reached from."
+  - id: validation
+    name: Validation
+    description: "The Product refuses the request because input is invalid or incomplete, or a condition of who may act is not met."
+  - id: edge
+    name: Edge
+    description: "A conflict with current state, an unavailable dependency such as the SES headquarters system, or a partial outcome the Product distinguishes."
